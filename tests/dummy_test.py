@@ -1,6 +1,6 @@
 import sys 
 sys.path.append("/home/stefanos/web-scraper")
-import dummy  
+from .. import dummy  
 import pytest  
 
 @pytest.mark.parametrize(
